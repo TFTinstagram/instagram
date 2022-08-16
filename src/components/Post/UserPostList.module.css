@@ -1,0 +1,122 @@
+.form2{
+    margin-top: 13px;
+    background-color: rgb(255, 255, 255);
+    width:470px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgb(206, 206, 206);
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.align_{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img{
+    height:448px;
+    width:468px;
+    margin-left:-15px;
+    margin-top: 10px;
+}
+
+.circle{
+    width:30px;
+    height:30px;
+    margin-left: -5px;
+    border-radius: 50%;
+    background-image: url('../../Images/profile.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+
+.username{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.icons{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+
+.icons  img{
+    margin-right: 20px;
+}
+
+.icons img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.img2{
+    margin-right: -20px;
+}
+
+.text{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.div{
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.div > span{
+    font-weight: bold;
+}
+
+.comments{
+    color:rgb(153, 153, 153);
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.comments::after{
+    content:'';
+    height: 1px;
+    width:470px;
+    margin-top: 10px;
+    margin-left: -15px;
+    background: rgb(222, 222, 222);
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.smile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.input{
+    background:transparent;
+    border:transparent;
+    width: 85%;
+    
+}
+
+.input:focus{
+    outline: transparent;
+}
+
+.post{
+    font-size: 14px;
+    color: rgb(11, 175, 245);
+    font-weight: bold;
+    opacity: 0.45;
+}
+
+.post_{
+    font-size: 14px;
+    color: rgb(11, 175, 245);
+    font-weight: bold;
+}

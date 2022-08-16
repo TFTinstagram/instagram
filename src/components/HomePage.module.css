@@ -1,0 +1,78 @@
+.align{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.block{
+    display: block;
+}
+.form1{
+    margin-top: 90px;
+    background-color: rgb(255, 255, 255);
+    width:470px;
+    height: 100px;
+    padding: 40px 50px 25px 50px;
+    border: 1px solid rgb(206, 206, 206);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.form3{
+    margin-top: 90px;
+    background-color: transparent;
+    width:350px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.align_{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alignC{
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    width:60px;
+    height: 60px;
+    background-image: url('../Images/profile.jfif');
+    background-size: cover;
+    background-position:center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.username{
+    font-size: 14.5px;
+}
+
+.name{
+    font-size: 14.5px;
+    color: rgb(153, 153, 153);
+}
+
+.switch{
+    font-size: 12px;
+    color: rgb(11, 175, 245);
+    cursor: pointer;
+}
+
+.suggestion{
+    font-size: 14px;
+    color: rgb(135, 135, 135);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.see{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
